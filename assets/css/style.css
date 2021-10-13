@@ -1,7 +1,6 @@
 /**
-* Template Name: MyBiz - v4.3.0
-* Template URL: https://bootstrapmade.com/mybiz-free-business-bootstrap-theme/
-* Author: BootstrapMade.com
+* Template Name: Tim
+* Author: Bishnu Timalsina
 * License: https://bootstrapmade.com/license/
 */
 
@@ -485,12 +484,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 14px 32px;
-  border-radius: 5px;
+  border-style: solid;
+  border-color: #00853E;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
   color: #fff;
-  background: #00853E;
+  background: #00000072;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
 }
@@ -1024,10 +1024,18 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/MidPageScrollerImage.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .testimonials::before {
@@ -1037,7 +1045,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(8, 10, 11, 0.7);
+  background: rgba(8, 10, 11, 0.125);
 }
 
 .testimonials .section-header {
@@ -1456,3 +1464,145 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+
+.logo-list {
+  padding: 20px 0;
+  text-align: center;
+  background-color:#00853E;
+  margin-bottom: 2em;
+}
+.logo-list img {
+  display: inline-block;
+  max-width: 55%;
+  padding: 15px 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-filter: grayscale(100);
+  -moz-filter: grayscale(100);
+  filter: grayscale(100);
+}
+.logo-list img:hover {
+  filter: none;
+  transform: scale(1.2);
+  -webkit-filter: none;
+  -moz-filter: none;
+}
+
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+
+
+
+
+.subtitle{
+	font-size: 1.25em;
+	opacity: 0.65;
+}
+
+.card-block{
+	height: 400px;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 9px;
+	&:hover{
+		transform: translateY(-5px);
+		box-shadow: none;
+		opacity: 0.9;
+	}
+}
+
+.card-1{
+	background-color: #4158D0;
+  background-image: url("https://75.jazz.unt.edu/sites/default/files/2020_-_jz_0856.jpg");
+}
+
+.card-2{
+	background-color: #0093E9;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/2009_-_img_0316.jpg");
+}
+
+.card-3{
+	background-color: #00DBDE;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/1961_-_metadc796895_xl_unta_u0458-106-696-02.jpg");
+}
+
+.card-4{
+	background-color: #FBAB7E;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/2010_-_oneoclock_2010_11.jpg");
+}
+
+.card-5{
+	background-color: #85FFBD;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/1960-1980_metadc494022_m_unta_u0458-104-286-05.med_res.jpg");
+}
+
+.card-6{
+	background-color: #FA8BFF;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/2008_umbriajazz08_2_09.jpg");
+}
+
+.card-7{
+	background-color: #FA8BFF;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/2020_-_jazz_singers_spring_2020.jpg");
+}
+
+.card-8{
+	background-color: #FBDA61;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/1960-1980_-_metadc492149_xl_unta_u0458-104-268-09.jpg");
+}
+
+.card-9{
+	background-color: #4158D0;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/1987_-_metadc945258_xl_unta_u0458-125-0733-07.jpg");
+}
+
+.card-10{
+	background-color: #FF3CAC;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/2020_-_birdland_unt_college_of_music_one_oclock_lab_band_cropped.jpg");
+
+}
+
+.card-11{
+	background-color: #FF3CAC;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/1955_-_metadc491760_xl_unta_u0458-104-266-04.jpg");
+
+}
+.card-12{
+	background-color: #FF3CAC;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/1978_-_metadc495930_xl_unta_u0458-104-299-01.jpg");
+
+}
+.card-13{
+	background-color: #FF3CAC;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/2019_-_19_0275_arts_n_jazz230.jpg");
+
+}
+.card-14{
+	background-color: #FF3CAC;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/1952_-_metadc181743_xl_lb_early-jazz-005_01.jpg");
+
+}
+.card-15{
+	background-color: #FF3CAC;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/1972_-_metadc492165_xl_unta_u0458-104-294-02.jpg");
+
+}
+.card-16{
+	background-color: #FF3CAC;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/2011_-_unt_one_oclock_concert_print_pic-5.jpg");
+
+}
+.card-17{
+	background-color: #FF3CAC;
+background-image: url("https://75.jazz.unt.edu/sites/default/files/1948_-_metadc181772_xl_lb_early-jazz-002_01.jpg");
+
+}
+
+
