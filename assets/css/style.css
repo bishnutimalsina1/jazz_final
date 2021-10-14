@@ -1468,15 +1468,16 @@ section {
 
 
 .logo-list {
-  padding: 20px 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
   text-align: center;
   background-color:#00853E;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .logo-list img {
   display: inline-block;
-  max-width: 55%;
-  padding: 15px 0;
+  max-width: 75%;
+  padding: 0;
   transition: all 0.3s ease-in-out;
   -webkit-filter: grayscale(100);
   -moz-filter: grayscale(100);
